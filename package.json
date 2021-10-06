@@ -1,0 +1,16 @@
+{
+  "name": "calc-bhaskara",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzow13/calc-bhaskara.git"
+  },
+  "author": "Enzow13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enzow13/calc-bhaskara/issues"
+  },
+  "homepage": "https://github.com/enzow13/calc-bhaskara#readme"
+}

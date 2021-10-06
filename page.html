@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>Calcular Bhaskara</title>
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <main>
+            <h1>Calcular Bhaskara Δ</h1>
+            <div id="div-pre_defs">
+                <div id="div-inputs-incogs">
+                    <input class="only-input-incogs" id="input-first-incog" type="number">
+                    <p class="incogs" id="a incog">ax²</p>
+
+                    <input class="only-input-incogs" id="input-second-incog" type="number">
+                    <p class="incogs" id="b incog">bx</p>
+
+                    <input class="only-input-incogs" id="input-third-incog" type="number">
+                    <p class="incogs" id="c-incog">c = 0</p>
+                </div>
+            </div>
+            <button type="button" id="btn-calculate" onclick="CalcBhaskara()">Calcular</button>
+            <p id="aswr-calc-btn"></p>
+        </main>
+    </body>
+</html>
