@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4rem;
+    background-color: gray;
+    margin-top: 4rem;
 }
 
 h1 {
@@ -44,7 +50,7 @@ h1 {
 #btn-calculate {
     border: solid 1px rgb(17, 17, 17);
     border-radius: 5px;
-    background: rgba(228, 228, 228, 0.568);
+    background: rgba(192, 192, 192, 0.568);
     padding: 15px 30px;
     font-size: 1.2rem;
     font-weight: 600;
@@ -56,9 +62,32 @@ h1 {
     background: rgba(17, 17, 17, 0.2);
 }
 
-#aswr-calc-btn {
-    font-size: 2rem;
+.aswr-calc-btn {
+    font-size: 1rem;
     color: rgb(17, 17, 17);
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+}
+
+#section-math-calculation-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#math-calculation-box {
+    border: solid 1px rgb(17, 17, 17);
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+}
+
+#span-math-calculation {
+    font-family: sans-serif;
+}
+
+.alert {
+    background: rgb(238, 65, 65);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
 }
